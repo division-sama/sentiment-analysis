@@ -1,4 +1,5 @@
 import nltk, re, string
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 import numpy as np
 import pickle
